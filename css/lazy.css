@@ -1,0 +1,7 @@
+/*
+    Provide styling for lazy loading required elements
+*/
+
+.lazy-placeholder {
+    display: none;
+}
