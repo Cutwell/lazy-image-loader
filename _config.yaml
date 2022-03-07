@@ -1,0 +1,5 @@
+remote_theme: rosario/kasper
+plugins:
+  - jekyll-feed
+title: Lazy-Image-Loader
+description: Lazy image loading for graphic-heavy websites on low-bandwidth connections.

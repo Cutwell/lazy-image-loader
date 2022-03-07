@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy-Load Demo</title>
+
+    <style>
+        body {
+            overflow: auto;
+        }
+        
+        /* Apply same dimensions to lazy and real images inside #center, so they occupy the same space */
+        #center > img {
+            width: 2500px;
+            height: 1667px;
+            position: absolute;
+            top: 1;
+            left: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="center">
+        <!-- low rez placeholder image loaded early, hi-rez image loaded late once in viewport -->
+        <img name="lazy" lazy-src="assets/hi_forest.png" src="assets/lz_forest.png" \>
+    </div>
+    
+    <!-- load lazy load script at end of file -->
+    <script src="lazy/lazy.min.js"></script>
+</body>
+</html>
