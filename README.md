@@ -1,4 +1,5 @@
-# Lazy Load
+# Lazy Image Loader
+![image comparison](assets/banner.png)
 
 ### Requirements
 • lazy images must all use a consistent height and width as their original image to ensure correct page layout is maintained (this can be achieved with smaller images enlarged via css).
