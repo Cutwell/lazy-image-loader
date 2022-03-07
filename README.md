@@ -1,4 +1,3 @@
-# Lazy Image Loader
 ![image comparison](assets/banner.png)
 
 ### Requirements
