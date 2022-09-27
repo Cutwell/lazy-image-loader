@@ -1,3 +1,4 @@
 remote_theme: Cutwell/featherweight
 title: Lazy-Image-Loader
+layout: post
 description: Lazy image loading for graphic-heavy websites on low-bandwidth connections.
